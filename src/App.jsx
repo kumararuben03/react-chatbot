@@ -55,7 +55,7 @@ const App = () => {
           <ChatbotIcon/>
           <h2 className="logo-text">Chatbot</h2>
         </div>
-        <button className="material-symbols-rounded">
+        <button className="material-symbols-rounded" onClick={() => setShowChatbot(false)}>
 keyboard_arrow_down
 </button>
       </div>
