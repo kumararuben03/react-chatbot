@@ -13,9 +13,19 @@ const App = () => {
   const [showChatbot, setShowChatbot] = useState(false);
   const chatBodyRef = useRef();
 
+  // Helper function to convert URLs to clickable links
+  const convertUrlsToLinks = (text) => {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    return text.replace(urlRegex, url => 
+      `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`
+    );
+  };
+
   const generateBotResponse = async (history) => {
     const updateHistory = (text, isError = false) => {
-      setChatHistory(prev => [...prev.filter(msg => msg.text !== "Thinking..."), {role: "model", text, isError}]);
+      // Convert URLs to clickable links if not an error
+      const processedText = isError ? text : convertUrlsToLinks(text);
+      setChatHistory(prev => [...prev.filter(msg => msg.text !== "Thinking..."), {role: "model", text: processedText, isError}]);
     }
 
     history = history.map(({role,text}) => ({role, parts: [{text}]}));
@@ -63,9 +73,7 @@ keyboard_arrow_down
       <div ref={chatBodyRef} className="chat-body">
         <div className="message bot-message">
           <ChatbotIcon/>
-          <p className='message-text'>
-            Hey there 👋<br/> How can I assist you today?
-          </p>
+          <p className='message-text' dangerouslySetInnerHTML={{ __html: 'Hey there 👋<br/> How can I assist you today?' }}></p>
         </div>
 
         {chatHistory.map((chat,index) => (

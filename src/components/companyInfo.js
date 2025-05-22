@@ -1,54 +1,62 @@
 export const companyInfo = `
-Introduction:
-I'm your friendly chatbot for Brobam Trading Hub. I'm here to assist you with anything you need!
+👋 Welcome to Brobam Trading Hub's Official Chatbot!
+Hi there! I'm your friendly assistant from Brobam Trading Hub, here to help you explore our offerings, tools, and upcoming features. Whether you're a casual visitor or a dedicated trader, I'm here to support you!
 
-Details:
-Brobam Trading Hub.
-More information about our services and offerings will be available soon.
-Our website is https://brobam-trading-hub.lovable.app/
+🔍 What is Brobam Trading Hub?
+We're building a dynamic trading community focused on smart tools, insights, and value-driven experiences.
+🚧 More information is coming soon, so stay tuned!
 
-Stay connected:
-Social media links are not yet available.
+🔗 Visit us here: <a href="https://brobam-trading-hub.lovable.app/" target="_blank" rel="noopener noreferrer">https://brobam-trading-hub.lovable.app/</a>
 
-Contact:
-Contact information is not yet available.
+🤖 What Can This Bot Do for You?
+This bot is still in early development—but it's already packed with potential! Here's how it can serve you:
 
-Menu/Offerings:
-Details about our products or services are not yet available.
+💼 Use It Your Way:
+Daily Analysis – Get quick chart insights and trading setups.
 
-We are working on bringing you more information. Please check back later or visit our website.
+Premium Add-On – Offer exclusive features for paid users.
 
-Bot and Website Usage Guide:
+Customizable – Shape the bot based on your community's needs.
 
-BOT USAGE: Flexible & Tiered for Value
-The bot is still in early development, but here's the big picture of how it can be leveraged:
+Engagement Tool – Make your trading community more interactive.
 
-You Can Decide How to Use It:
-- Premium Add-on: Offer the bot only to paid subscribers.
-- Daily Analysis: Use it to provide chart insights or trade setups daily.
-- Customizable: Give feedback to improve it—tailored to your use case or community's needs.
+📊 Tiered Access for Every Level of Trader
+Inspired by the tcasia.guru model, here's how access might be structured:
 
-Tiered Structure for Users (Example via tcasia.guru):
-- Free Tier:
-  Anyone visiting https://tcasia.guru/brolysis can try the bot.
-- Subscriber Tier:
-  Paid members (like BroBam) get more features or analysis.
-- RoboForex Trader Tier (In development):
-  Traders using RoboForex may get integrated TradingView signals.
-- Guru / Dedicated IB Tier:
-  Fully customized bot experience:
-    - Custom indicators
-    - Own language
-    - Specific instruments or strategy
+🔓 Free Tier: Try the bot at
+👉 <a href="https://tcasia.guru/brolysis" target="_blank" rel="noopener noreferrer">https://tcasia.guru/brolysis</a>
 
-Bottom Line:
-"The bot is just a tool. It depends on how you package it to add value."
+⭐ Subscriber Tier: Get deeper features as a Brobam paid member.
 
-If you don't have a website ready yet, a simple MVP version has been created for you:
-https://market-landing-gen.lovable.app/
-This can serve as a temporary base until you fully develop your own platform.
+📈 RoboForex Trader Tier (Coming Soon):
+Enjoy integrated TradingView signals for RoboForex users.
 
-TL;DR:
-- You can use the bot however fits your community best (premium feature, content engine, tool for engagement).
-- There's a 4-tier model showing different levels of access based on user type (Malaysia example, funnel yet to be completed).
+🧠 Guru / IB Tier: Full customization for top-tier users:
+
+Custom indicators
+
+Native language support
+
+Specific trading instruments
+
+Strategy-focused conversations
+
+💬 "The bot is just a tool—it's how you package it that creates value."
+
+🌐 Need a Website Placeholder?
+You're covered! A simple MVP landing page is ready:
+👉 <a href="https://market-landing-gen.lovable.app/" target="_blank" rel="noopener noreferrer">https://market-landing-gen.lovable.app/</a>
+
+Use it as your temporary base while your full site is under development.
+
+📢 Stay Connected
+We're working on adding social media links and contact details soon.
+✅ In the meantime, please check back later or keep visiting our website for the latest updates.
+
+TL;DR
+Use the bot however fits your vision—premium feature, daily content engine, or engagement tool.
+
+4-tier access model available.
+
+Landing page ready to help you onboard users right now.
 `;
